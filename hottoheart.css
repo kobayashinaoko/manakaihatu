@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* ヘッダー部分 */
+
+.header-top{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 110px;
+    z-index: 10;
+}
+
+.logo3 {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    z-index: 10;
+    width: 15%;
+}
+
+.header-top-item{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.box{
+    position: relative;
+}
+
+
+/* ここから記事タイトル */
+
+main {
+    text-align: center;
+}
+
+.img-logo{
+    width: 55%;
+    object-fit: cover;
+}
+
+.img-sub {
+    width: 100%;
+}
+
+.kiji-title {
+    position: relative;
+    top: 120px;
+}
+
+.img-top {
+    width: 1000px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+
+/* ここから本文 */
+.honbun {
+    position: relative;
+    top: 130px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.img-honbun {
+    width: 500px;
+}
+
+.text-1 {
+    font-size: 30px;
+    color: #ff0000;
+}
+
+.text-2 {
+    font-size: 25px;
+    color: #0000ff;
+}
+
+/* ここから関連記事部分 */
+
+li {
+    list-style: none;
+}
+
+.kiji-sime {
+    position: relative;
+    top: 130px;
+}
+
+h3 {
+    color: #696969;
+}
+
+
+/* 権利表示部分 */
+small {
+    position: relative;
+    top: 150px;
+    left: 600px;
+}
